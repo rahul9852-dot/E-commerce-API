@@ -1,6 +1,6 @@
 
 const Order = require('../model/order');
-const Product = require('../model/Product');
+const Product = require('../model/product');
 
 const {StatusCodes} = require('http-status-codes');
 const checkPermissions = require('../utils/checkPermissions');

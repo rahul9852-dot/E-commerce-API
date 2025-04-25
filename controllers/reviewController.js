@@ -1,6 +1,6 @@
 const {StatusCodes} = require('http-status-codes');
 const customError = require('../errors');
-const Product = require('../model/Product');
+const Product = require('../model/product');
 const Review = require('../model/Review');
 const {checkPermissions} = require('../utils/checkPermissions');
 
